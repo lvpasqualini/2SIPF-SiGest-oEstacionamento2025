@@ -1,23 +1,19 @@
-// Classe que guarda dados de produtos e servicos oferecidos no estacionamento
+// Classe de Objetos que guarda dados de produtos e servicos oferecidos no estacionamento
+//Exemplos de produtos e servicos: estacionar veiculo; lavar veiculo; trocar oleo
 public class Produto {
-
-	private double peso;
+	private int peso;
 	private double altura;
 	
-	public Produto() {
-		
-	}
-	
-	public Produto(double peso, double altura) {
+	public Produto(int peso, double altura) {
 		this.peso=peso;
 		this.altura=altura;
 	}
 	
-	public double getPeso() {
+	public int getPeso() {
 		return peso;
 	}
 	
-	public void setPeso(double peso) {
+	public void setPeso(int peso) {
 		this.peso = peso;
 	}
 	
